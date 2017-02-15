@@ -1,6 +1,6 @@
 # React API
 
-1. Clone repo and switch into directory
+* Clone repo and switch into directory
 ```bash
 # make sure you are in the right gemset
 rvm use 2.3.0@reactAPI
@@ -16,13 +16,13 @@ postgres -D /usr/local/var/postgres
 rake db:create
 ```
 
-2. Create database tables and seed them
+* Create database tables and seed them
 ```bash
 rake db:migrate
 rake db:seed
 ```
 
-3. Run server
+* Run server
 ```bash 
 rails s
 ```
